@@ -1,0 +1,6 @@
+/**
+ * College
+ */
+public class College {
+
+}
