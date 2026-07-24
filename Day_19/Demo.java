@@ -24,14 +24,34 @@ class Outer {
         void display() {
             // Static inner classes can access static members of the outer class directly
             System.out.println("Accessing: " + outerStaticField);
-            
+
             // Cannot access outerInstanceField directly:
-            // System.out.println(outerInstanceField); // This would cause a compilation error
+            // System.out.println(outerInstanceField); // This would cause a compilation
+            // error
         }
 
         void showOuterInstance(Outer outer) {
             // To access non-static members, we must pass an instance of the outer class
             System.out.println("Accessing instance field: " + outer.outerInstanceField);
         }
+    }
+}
+
+class BankAccount {
+    private double balance = 1000.0;
+
+    // Private non-static inner class
+    private class TransactionLogger {
+        void log(String action, double amount) {
+            // Can access private members of the outer class directly
+            System.out.println("Log: " + action + " of $" + amount);
+            System.out.println("New Balance: " + balance);
+        }
+    }
+
+    public void withdraw(double amount) {
+        balance -= amount;
+        TransactionLogger logger = new TransactionLogger();
+        logger.log("Withdrawal", amount);
     }
 }

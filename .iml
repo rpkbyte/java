@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Arrays in java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bitwise Operator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Conditionals in java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day_16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day_17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day_18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day_19" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Oops_in_java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/String in java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Taking Input" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-loops-examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/operators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pattern printing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/variables and datatype in java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
