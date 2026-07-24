@@ -42,10 +42,8 @@ class Student {
         return this.name;
     }
     public College getCollege(){
-        return new College(college.name, college.address);
+        return new College(this.college.name, this.college.address);
     }
-
-
     
 }
 
