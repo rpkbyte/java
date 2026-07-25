@@ -1,9 +1,12 @@
+import java.util.Objects;
+
 public class Demo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         System.out.println("Hello, World!");
-        // Object obj = new Object();
+        Object obj = new Object();
         Student student = new Student("Alice", 20);
         Student student2 = new Student("rpk", 21);
+        Student student3 = new Student("Alice", 20);
 
         // System.out.println(student);
         // System.out.println(student.equals(student2));
@@ -13,13 +16,31 @@ public class Demo {
 
         // Integer i = 28;
         // System.out.println(student.equals(i));
+        // System.out.println(student.hashCode());
+        // System.out.println(student2.hashCode());
+        // System.out.println(student3.hashCode());
+        // System.out.println(student.hashCode() == student3.hashCode());
         
+        // System.out.println(student.getClass().getName());
+        
+        // System.out.println(student instanceof Student);
+        
+        // Student student4 = (Student)student.clone();
+        // System.out.println(student4.getName());
+        // System.out.println(student.getName());
+        // System.out.println(student.hashCode() == student4.hashCode());
+        // System.out.println(student.equals(student4));
+        
+
     }
     
 }
 
+// instenceOf operator -> check if an object is instance of a class or any of its
+
+
 // extends Object optional
-class Student extends Object {
+class Student extends Object implements Cloneable{
     private String name;
     private int age;
     
@@ -51,8 +72,20 @@ class Student extends Object {
         return (this.name == s.name && this.age ==s.age );
     }
 
-    // @Override
-    // public 
+    @Override
+    public int hashCode(){
+        // int result =17;
+        // result = result*31 +age;
+        // result = result*31 + (name == null ? 0 : name.hashCode());
+        // return result;
+
+        return Objects.hash(name, age);
+
+    }
+
+    protected Object clone() throws CloneNotSupportedException{
+        return super.clone();
+    }
     
     public String getName() {
         return name;
