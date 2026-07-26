@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#fff8e1"/>
+  <rect x="70" y="60" width="1060" height="680" rx="28" fill="#fff3c4" stroke="#e2b84c" stroke-width="6"/>
+  <rect x="100" y="90" width="1000" height="620" rx="20" fill="#fffdf5" stroke="#d4a017" stroke-width="3"/>
+
+  <g stroke="#8d6e63" stroke-width="3" fill="none" opacity="0.5">
+    <path d="M140 190 H1050"/>
+    <path d="M140 240 H1050"/>
+    <path d="M140 290 H1050"/>
+    <path d="M140 340 H1050"/>
+    <path d="M140 390 H1050"/>
+    <path d="M140 440 H1050"/>
+    <path d="M140 490 H1050"/>
+  </g>
+
+  <g transform="translate(120 140)">
+    <text x="0" y="0" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="34" fill="#d81b60" font-weight="bold">Enum in Java</text>
+    <text x="0" y="55" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="28" fill="#1e88e5">A fixed list of choices</text>
+    <text x="0" y="105" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="26" fill="#0d47a1">Example:</text>
+    <text x="0" y="145" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="24" fill="#388e3c">enum Direction {</text>
+    <text x="35" y="185" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="24" fill="#f57c00">NORTH, SOUTH, EAST, WEST;</text>
+    <text x="0" y="225" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="24" fill="#388e3c">}</text>
+    <text x="0" y="280" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="24" fill="#6a1b9a">Use it like:</text>
+    <text x="0" y="320" font-family="'Comic Sans MS', 'Segoe Print', cursive" font-size="24" fill="#c2185b">Direction d = Direction.EAST;</text>
+  </g>
+
+  <g stroke="#f06292" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M900 180 C930 145, 975 145, 1005 180"/>
+    <path d="M930 330 C960 300, 1000 300, 1030 330"/>
+  </g>
+
+  <g stroke="#5e35b1" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M860 500 C890 460, 930 455, 970 495"/>
+  </g>
+
+  <g stroke="#fb8c00" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M820 610 C845 585, 885 585, 915 620"/>
+  </g>
+
+  <circle cx="1040" cy="140" r="20" fill="#ffcc80" opacity="0.8"/>
+  <circle cx="1020" cy="610" r="14" fill="#80cbc4" opacity="0.8"/>
+  <circle cx="900" cy="660" r="10" fill="#90caf9" opacity="0.8"/>
+</svg>
